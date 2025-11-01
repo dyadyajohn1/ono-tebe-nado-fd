@@ -1,1 +1,102 @@
-/* место для вашего кода */
+header {
+  padding: 95px 50px 100px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  font-size: 18px;
+}
+
+.header__logo {
+  width: 129px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 32px;
+  list-style: circle;
+  line-height: 21px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
+
+.header__link_active .header__link {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+.header__address {
+  max-width: 237px;
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 24.3px;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 60%);
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.cover {
+  padding: 165px 50px 50px;
+  background-image: url(../images/cover.jpg);
+  min-height: 757px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.cover__title {
+  font-weight: bold;
+  font-size: 100px;
+  position: relative;
+  z-index: 100;
+  line-height: 1.19;
+}
+
+.aligned-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.aligned-text_left {
+  text-align: start;
+}
+
+.aligned-text_center {
+  text-align: center;
+  margin-right: -29px;
+  margin-top: 15px;
+}
+
+.aligned-text_right {
+  text-align: right;
+  margin-right: -30px;
+  margin-top: 15px;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 30.5px;
+}
+
+.cover__description {
+  position: relative;
+  z-index: 100;
+  margin-top: 106px;
+}
