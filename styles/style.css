@@ -103,9 +103,6 @@
 .cover__description {
   position: relative;
   z-index: 100;
-}
-
-.cover__description {
   display: flex;
   justify-content: space-between;
   align-items: center;
