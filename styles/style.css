@@ -123,6 +123,7 @@
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .lots {
@@ -139,6 +140,7 @@
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   list-style-type: none;
 }
@@ -261,6 +263,7 @@
   align-items: start;
   margin-top: 180px;
   padding: 0 50px;
+  margin-bottom: 82px;
   font-size: 18px;
 }
 
